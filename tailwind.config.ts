@@ -25,6 +25,7 @@ const config = {
         ruffy: 'url("../assets/avif/ruffy.avif")',
         circleStar: 'url("../assets/svgs/circle-star.svg")',
         site: 'url("../assets/svgs/site-bg.svg")',
+        customGradient: 'linear-gradient(180deg, #138086 0%, #062628 100%)',
       },
       animation: {
         'spin-slow': 'spin 5s linear infinite',
