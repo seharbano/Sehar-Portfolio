@@ -34,7 +34,7 @@ const WorkWebsiteSlider = () => {
       >
         <CarouselContent className="-ml-1 " >
           {ProjectCardData.map((project, index) => (
-            <CarouselItem className="pl-1 my-4 basis-full min-[620px]:basis-1/2">
+            <CarouselItem  key={index} className="pl-1 my-4 basis-full min-[620px]:basis-1/2">
               <div className="p-1 px-2 ">
                 <WebsiteWorkSliderCard
                   ProjectImg={project.Projectimg}
